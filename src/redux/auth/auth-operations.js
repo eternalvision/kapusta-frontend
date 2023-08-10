@@ -2,7 +2,7 @@ import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
 // axios.defaults.baseURL = 'https://lit-headland-14010.herokuapp.com/api/';
-axios.defaults.baseURL = 'https://kapusta-backend-node-js.herokuapp.com/api/';
+axios.defaults.baseURL = 'https://quickest-early-vase.glitch.me/api/';
 
 const token = {
   set(token) {
