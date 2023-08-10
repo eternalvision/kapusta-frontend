@@ -16,7 +16,7 @@ git add .
 git commit -m "Auto-deploy"
 
 # Добавляем удаленный репозиторий GitHub (замените <username> и <repository> на свои значения)
-git remote add origin https://github.com/<username>/<repository>.git
+git remote add origin https://github.com/eternalvision/kapusta-frontend.git
 
 # Отправляем изменения в ветку "build"
 git push -f origin HEAD:build

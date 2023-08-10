@@ -2,7 +2,7 @@ import axios from 'axios';
 
 import summaryActions from './summaryActions';
 
-axios.defaults.baseURL = 'https://kapusta-backend-node-js.herokuapp.com/api/';
+axios.defaults.baseURL = 'https://quickest-early-vase.glitch.me/api/';
 
 const getSummary = (summaryType, thisYear) => async dispatch => {
   dispatch(summaryActions.getSummaryRequest());

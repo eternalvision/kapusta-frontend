@@ -2,7 +2,7 @@ import axios from 'axios';
 
 import transactionsActions from './transactionsActions';
 
-axios.defaults.baseURL = 'https://kapusta-backend-node-js.herokuapp.com/api/';
+axios.defaults.baseURL = 'https://quickest-early-vase.glitch.me/api/';
 
 const getTransactions = () => async dispatch => {
   dispatch(transactionsActions.getTransactionsRequest());
